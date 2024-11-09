@@ -358,7 +358,7 @@ SectorParser::create_sector()
   else
   {
     auto& water = m_sector.add<TileMap>(m_sector.get_tileset());
-    water.resize(100, 35, 1);
+    water.resize(100, 100, 1);
     water.set_layer(-100);
     water.set_solid(false);
   }
